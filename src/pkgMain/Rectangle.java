@@ -7,6 +7,8 @@ public class Rectangle {
 	public Rectangle(double length, double width) {
 		Length = length;
 		Width = width;
+		length = 4.6;
+		width = 8.7;
 	}
 	public double getLength() {
 		return Length;
@@ -17,7 +19,8 @@ public class Rectangle {
 	
 	public double Area()
 	{
+		area = Length*Width;
 		// TODO Implement Area() function with the correct formula
-		return 0;
+		System.out.println("The area for the rectangle of length "+length+" and width "+width+" is "+area);
 	}	
 }
